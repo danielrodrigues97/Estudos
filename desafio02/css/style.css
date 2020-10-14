@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+
+div{
+    width: 400px;
+    height: 200px;
+    background-image: url(../Imagens/backgorund.png);
+    position: absolute;
+    background-size: cover;
+    top: calc(50% - 100px);
+    left:calc(40% - 100px);
+    box-sizing: border-box;
+
+}
+
+ol{
+
+    font-family: Comic Sans MS, Helvetica, sans-serif;
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+
+a{
+    
+    text-decoration: none;
+    color: black;
+    
+}
+
+.img:hover{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color:red;
+    font-size: 20px;
+}
+
+
