@@ -1,0 +1,10 @@
+.verde{
+    height: 100px;
+    background: linear-gradient(30deg, yellow, blue, 30%,brown);
+}
+
+.segunda{
+    height: 100px;
+    margin-top: 10px;
+    background: linear-gradient(75deg, blue,pink,black);
+}

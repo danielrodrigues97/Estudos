@@ -1,0 +1,26 @@
+/*
+CSS de Estudo para as páginas Estudo_HTML e pagina2
+*/
+p{
+    color: black;
+    background-color: blue;
+}
+
+.novo{
+    color: red;
+    background-color: pink;
+}
+
+#description{
+    background-color: rgb(20, 70, 80)
+}
+
+div{
+    background-image: url("https://files.tecnoblog.net/wp-content/uploads/2021/05/Assassins-Creed-a-ordem-cronologica-da-serie-completa.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+/*Utilizado quando se tem página rolando e o fundo parada!!!*/
+    background-attachment: fixed;
+}
