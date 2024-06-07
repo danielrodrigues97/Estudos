@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <script>
+      /*  function changeH1(input){
+            let h1 = document.getElementsByTagName("h1")[0];
+            h1.innerText = input.value;
+        }
+
+        function hideH1(){
+            let h1 = document.getElementsByTagName("h1")[0];
+            h1.style.background="blue";
+            //h1.style.display="none"
+        }*/
+
+        function OnMouse(elemento){
+            elemento.style.backgroundColor="red";
+        }
+
+        function leveMouse(leveMouse){
+            leveMouse.style.backgroundColor="cornflowerblue";
+        }
+    </script>
+       
+    <style>
+       /* div{
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            background: black;
+            color: red;
+            width: 80px;
+            text-align: center;
+            display: inline-block;  
+        }*/
+        
+        img{
+            width: 200px;
+            margin-bottom: 25px;
+        }
+
+        div{
+            display: inline;
+            padding: 10px;
+            font-size: 2rem;
+            background-color: cornflowerblue;
+            color: aliceblue;
+        }
+
+
+    </style>
+
+<body>
+    
+   <!--
+    <h1>Estudos do Gato</h1>
+    <input type="text" onchange="changeH1(this)">
+    <input type="text" oninput="changeH1(this)">
+    <div onclick="hideH1()">
+        click 
+    </div>
+    -->
+
+    <img src="../Imagens/Isabelle Prado.jpg" alt="">
+    <br>
+    <div onmouseover="OnMouse(this)"
+         onmouseleave="leveMouse(this)">click</div>
+
+
+
+</body>
+</html>
