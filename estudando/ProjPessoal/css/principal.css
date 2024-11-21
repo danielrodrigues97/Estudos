@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--bs-success) !important;
+}
+
+.row{
+    max-width: 80%;
+    /*background-color: black;*/
+    margin: auto;
+    margin-top: calc(5* var(--bs-gutter-y))  !important;
+    margin-right: calc(5* var(--bs-gutter-x)) !important;
+    margin-left: calc(10* var(--bs-gutter-x)) !important;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+#total{
+    margin-right: 50%;
+}
+
+#total2{
+    margin-right: 100px;
+}
